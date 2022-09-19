@@ -1,10 +1,11 @@
 sum = 0
-for i in range(1, 100):
+for i in range(1, 100+1):
   sum += i
 
 print(sum)
 
-for i in range(2, 1000, 2):
+sum = 0
+for i in range(2, 1002, 2):
   sum += i
 
 print(sum)
